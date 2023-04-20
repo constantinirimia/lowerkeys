@@ -1,29 +1,10 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import resume from "../assets/resume.pdf"
+import resume from "../assets/resume.pdf";
 const SocialLinks = () => {
   const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://linkedin.com/in/rahulkarda2002",
-      style: "rounded-tr-md",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/rahulkarda",
-    },
     {
       id: 3,
       child: (
@@ -31,27 +12,16 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:rahulkarda2002@gmail.com",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: resume,
-      download: true,
+      href: "mailto:ifconstantine777@gmail.com",
     },
     {
       id: 5,
       child: (
         <>
-          Twitter <FaTwitter size={30} />
+          305-509-0575 Phone <FaPhone size={50} />
         </>
       ),
-      href: "https://twitter.com/rahulkarda2002",
-      style: "rounded-br-md",
+      href: "tel:3055090575",
     },
   ];
 

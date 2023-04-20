@@ -19,24 +19,56 @@ const Home = () => {
         </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Senior Marketing Strategist
+            Lower Keys Painting and Maintanance
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            Strategic marketing that delivers results! With extensive experience
-            in crafting successful campaigns for top brands, I bring the
-            expertise and creativity to help you stand out from the competition.
-            Let's take your marketing to new heights and achieve your business
-            goals together.
+          <br></br>
+          <br></br>
+          <p className="text-white text-2xl py-6 max-w-md">
+            Welcome to Lower Keys Painting and Maintenance! Our commitment to
+            excellence and attention to detail is what sets us apart from the
+            rest.
           </p>
-
+          <br></br>
+          <p className="text-white text-2xl py-1 max-w-md">
+            We are a small but dedicated company based in the heart of Key West,
+            serving the entire Lower Keys area.
+          </p>
           <div className="portfolio-btn">
             <Link
-              to="portfolio"
+              to="about"
               smooth
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Portfolio
+              Learn more about us
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              </span>
+            </Link>
+          </div>
+          <br></br>
+          <p className="text-white text-2xl py-1 max-w-md">
+            With years of experience under our belt, we take pride in offering
+            top-notch interior and exterior painting services and maintenance
+            solutions to our valued clients.
+          </p>
+          <br></br>
+
+          <br></br>
+          <p className="text-white text-2xl py-1 max-w-md">
+            And the best part? We offer free estimates! So, whether you're a
+            homeowner, business owner, or property manager, give us a call today
+            to see how we can help you bring your vision to life.
+          </p>
+
+          <div className="portfolio-btn">
+            <Link
+              to="estimates"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
+              GET A FREE ESTIMATE NOW
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
