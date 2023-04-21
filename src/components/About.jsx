@@ -9,26 +9,26 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+            Who are we?
           </p>
         </div>
-
-        <p className="text-xl mt-5">Who are we?</p>
-
         <br />
-        <br></br>
         <p className="text-white text-2xl py-1 max-w-md">
           We are a small but dedicated company based in the heart of Key West,
           serving the entire Lower Keys area.
         </p>
         <br></br>
         <p className="text-white text-2xl py-1 max-w-md">
-          With years of experience under our belt, we take pride in offering
-          top-notch interior and exterior painting services and maintenance
-          solutions to our valued clients.
+          We understand that making decisions about home improvement projects
+          can be challenging, which is why we are here to help.
         </p>
         <br></br>
-
+        <p className="text-white text-2xl py-1 max-w-md">
+          We are always happy to provide expert advice to help you make the
+          right choices. We believe in working closely with our customers to
+          ensure that their needs and preferences are met.
+        </p>
+        <br></br>
         <br></br>
         <p className="text-white text-2xl py-1 max-w-md">
           And the best part? We offer free estimates! So, whether you're a

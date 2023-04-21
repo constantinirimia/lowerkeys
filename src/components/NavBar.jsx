@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaPhone } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -20,23 +20,23 @@ const NavBar = () => {
     },
 
     {
-      id: 5,
+      id: 4,
       link: "contact",
     },
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed nav">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-grey fixed nav">
       <div>
-        {}
-        <h1 className="text-5xl font-signature ml-2">
-          <a
-            className="link-underline link-underline-black"
-            href="https://lowerkeyspaintingandmaintenance"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Lower Keys Painting and Maintenance
+        <h1 className="text-2xl ml-2">
+          <a className="inline-flex items-center">
+            <FaPhone className="mr-2 text-green-500" />
+            <span
+              className="bg-yellow-500 text-black px-2 py-1 rounded-md font-bold"
+              style={{ fontFamily: "Helvetica" }}
+            >
+              CALL US: 305-509-0575
+            </span>
           </a>
         </h1>
       </div>

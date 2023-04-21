@@ -6,22 +6,13 @@ import resume from "../assets/resume.pdf";
 const SocialLinks = () => {
   const links = [
     {
-      id: 3,
+      id: 1,
       child: (
         <>
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:ifconstantine777@gmail.com",
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          305-509-0575 Phone <FaPhone size={50} />
-        </>
-      ),
-      href: "tel:3055090575",
+      href: "mailto:lowerkeyspaintingandmaintenance@gmail.com",
     },
   ];
 

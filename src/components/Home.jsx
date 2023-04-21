@@ -10,15 +10,23 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="small-screen hidden">
-          <img
-            src={HeroImage}
-            alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          />
-        </div>
+        <img
+          src={HeroImage}
+          alt="profile"
+          className="rounded-2xl mx-auto"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "500%",
+            height: "500%",
+            objectFit: "cover",
+            zIndex: -1,
+          }}
+        />
+
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-5xl sm:text-7xl font-bold text-white">
             Lower Keys Painting and Maintanance
           </h2>
           <br></br>
@@ -46,12 +54,7 @@ const Home = () => {
               </span>
             </Link>
           </div>
-          <br></br>
-          <p className="text-white text-2xl py-1 max-w-md">
-            With years of experience under our belt, we take pride in offering
-            top-notch interior and exterior painting services and maintenance
-            solutions to our valued clients.
-          </p>
+
           <br></br>
 
           <br></br>
@@ -79,7 +82,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-xl mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>

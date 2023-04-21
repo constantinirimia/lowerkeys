@@ -13,22 +13,35 @@
 }
 
 #root {
-  background: linear-gradient(black 25%, rgb(31, 41, 54) 58%, black 15%);
+  background: linear-gradient(
+    rgb(217, 67, 67) 25%,
+    rgb(31, 41, 54) 58%,
+    black 15%
+  );
   min-height: 100vh;
 }
 
 body {
-  background: rgb(31, 41, 55);
+  /* //background-image: url(${heroImage}); */
+  background-size: cover;
+  background-position: center;
+  background: rgb(89, 115, 150);
 }
 
 .nav {
   z-index: 10;
+  font-size: 25px;
+  color: rgb(219, 18, 18);
+}
+
+.call-us {
+  font-family: Helvetica;
 }
 
 .link-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent),
-    linear-gradient(#fff, #fff);
+  background-image: linear-gradient(to right, #000, #000),
+    linear-gradient(to right, #000, #000);
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -43,38 +56,44 @@ body {
 
 .link-underline:hover {
   background-size: 100% 3px;
-  background-position: 0 100%;
+  background-position: 200% 100%;
   line-height: 1.2;
 }
 
 .portfolio,
 .contact {
-  margin-top: 8%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
 }
 
-.experience {
-  margin-top: 12%;
+.blue-text {
+  color: rgb(217, 255, 0);
 }
 
+.estimates {
+  margin-top: 0%;
+}
 
 .nav-links {
-  text-underline-offset: 1rem;
+  text-underline-offset: 9rem;
 }
 
-
 @media screen and (max-width: 900px) {
-
   #root {
-    background: linear-gradient(rgb(31, 41, 55) 20%, black 20%, rgb(31, 41, 55) 65%, black 25%);
+    background: linear-gradient(
+      rgb(15, 102, 224) 20%,
+      black 20%,
+      rgb(31, 41, 55) 65%,
+      black 25%
+    );
     min-height: 100vh;
   }
 
   .about,
   .contact,
-  .portfolio,
-  .experience,
-  .home {
-    text-align: center;
+  .estimates .home {
+    text-align: left;
     height: 100%;
   }
 
@@ -82,10 +101,19 @@ body {
   .portfolio,
   .experience {
     margin-top: 10%;
+    width: 80%; /* adjust the width to your desired value */
+    margin: 0 auto; /* center the container */
+  }
+  .estimates {
+    margin-top: 10%;
+    width: 80%; /* adjust the width to your desired value */
+    margin: 0 auto; /* center the container */
   }
 
   .home img {
-    margin-top: 25%;
+    margin-top: 75%;
+    width: 80%; /* adjust the width to your desired value */
+    height: auto; /* preserve aspect ratio */
   }
 
   .small-screen {
@@ -93,7 +121,7 @@ body {
   }
 
   .big-screen {
-    display: none;
+    display: block;
   }
 
   .gap-8 {
@@ -114,5 +142,4 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
 }
