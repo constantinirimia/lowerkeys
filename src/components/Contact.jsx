@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="contact w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="contact w-full h-screen bg-gradient-to-b from-gray-900 to-black p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -19,8 +19,15 @@ const Contact = () => {
             Contact Us
           </p>
           <p className="py-6">
-            The easiest way to get in touch is by calling us. However you can
-            also write us a message below and we will get back to you!
+            The easiest way to get in touch is by calling us at{" "}
+            <span
+              className="bg-yellow-500 text-black px-2 py-1 rounded-md font-bold"
+              style={{ fontFamily: "Helvetica" }}
+            >
+              305-509-0575
+            </span>
+            . However, you can also write us a message below and we will get
+            back to you!
           </p>
         </div>
 
