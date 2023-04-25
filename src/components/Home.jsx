@@ -10,20 +10,6 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-blue-600 to-gray-900 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <img
-          src={HeroImage}
-          alt="profile"
-          className="rounded-2xl mx-auto"
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "500%",
-            height: "500%",
-            objectFit: "cover",
-            zIndex: -1,
-          }}
-        />
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-5xl sm:text-7xl font-bold text-white">
             Lower Keys Painting and Maintanance
@@ -72,7 +58,10 @@ const Home = () => {
             >
               GET A FREE ESTIMATE NOW
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                <MdOutlineKeyboardArrowRight
+                  size={25}
+                  className="ml-2 items-left"
+                />
               </span>
             </Link>
           </div>

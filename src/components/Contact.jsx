@@ -18,7 +18,7 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Us
           </p>
-          <p className="py-6">
+          <p className="pb-77">
             The easiest way to get in touch is by calling us at{" "}
             <span
               className="bg-yellow-500 text-black px-2 py-1 rounded-md font-bold"

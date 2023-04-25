@@ -25,6 +25,9 @@ body {
   background-image: url("/Users/constantine/Dev/FrontEnd/lowerkeys/lowerkeys/src/assets/heroImage.png");
   background-repeat: no-repeat;
   background-size: cover;
+
+  background-color: #f5f5f5;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/extra_clean_paper.png");
 }
 
 @media (max-width: 767px) {
@@ -39,9 +42,40 @@ body {
   font-size: 25px;
   color: rgb(219, 18, 18);
 }
+.home {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.about {
+  margin-top: 0%;
+  width: 100%; /* adjust the width to your desired value */
+  margin: 0 auto; /* center the container */
+}
+.estimates {
+  margin-top: 0%;
+  width: 100%; /* adjust the width to your desired value */
+  margin: 0 auto; /* center the container */
+  margin-bottom: 0%;
+}
+
+.contact {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  margin-left: 0%;
+}
+.nav-links {
+  text-underline-offset: 9rem;
+}
+h-screen {
+  width: 90%;
+}
 
 .call-us {
   font-family: Helvetica;
+}
+py-6 {
+  font-size: 2.7rem;
+  line-height: 3rem;
 }
 
 .link-underline {
@@ -66,120 +100,58 @@ body {
   line-height: 1.2;
 }
 
-.portfolio,
-.contact {
-  margin-top: 0%;
-  margin-bottom: 0%;
-  margin-left: 0%;
-}
-
 .blue-text {
   color: rgb(217, 255, 0);
 }
 
-.estimates {
-  margin-bottom: 0%;
+.home img {
+  margin-top: 5%;
+  width: 100%; /* adjust the width to your desired value */
+  height: auto; /* preserve aspect ratio */
 }
 
-.nav-links {
-  text-underline-offset: 9rem;
+.img {
+  margin-top: 75%;
+  width: 90%; /* adjust the width to your desired value */
+  height: auto; /* preserve aspect ratio */
 }
 
-@media screen and (max-width: 900px) {
-  #root {
-    background: linear-gradient(
-      rgb(15, 102, 224) 20%,
-      black 20%,
-      rgb(31, 41, 55) 65%,
-      black 25%
-    );
-    min-height: 100vh;
-  }
+.small-screen {
+  display: block;
+}
 
-  .about {
-    /* Small screens (mobile devices) */
-    @media (max-width: 640px) {
-      .max-w-screen-lg {
-        max-width: 100%;
-      }
-    }
+.big-screen {
+  display: block;
+}
 
-    /* Large screens (desktop devices) */
-    @media (min-width: 641px) {
-      .max-w-screen-lg {
-        max-width: 1280px;
-      }
-    }
-  }
-  .contact,
-  .estimates .home {
-    text-align: left;
-    height: 100%;
-    /* Small screens (mobile devices) */
-    @media (max-width: 640px) {
-      .max-w-screen-lg {
-        max-width: 100%;
-      }
-    }
+.gap-8 {
+  gap: 4rem;
+}
 
-    /* Large screens (desktop devices) */
-    @media (min-width: 641px) {
-      .max-w-screen-lg {
-        max-width: 1280px;
-      }
-    }
-  }
+.home h2 {
+  font-size: 2.7rem;
+  line-height: 3rem;
+  margin-top: 60%;
+}
 
-  .about,
-  .portfolio,
-  .experience {
-    margin-top: 10%;
-    width: 80%; /* adjust the width to your desired value */
-    margin: 0 auto; /* center the container */
-  }
-  .estimates {
-    margin-top: 30%;
-    width: 80%; /* adjust the width to your desired value */
-    margin: 0 auto; /* center the container */
-  }
+.pb-8 {
+  font-size: 2.7rem;
+  line-height: 3rem;
+  margin-top: 25%;
+}
+.pb-77 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-top: 3%;
+}
 
-  .home img {
-    margin-top: 75%;
-    width: 80%; /* adjust the width to your desired value */
-    height: auto; /* preserve aspect ratio */
-  }
+.portfolio-btn {
+  margin: auto;
+  margin-left: 0%;
+  color: red;
+}
 
-  .img {
-    margin-top: 75%;
-    width: 90%; /* adjust the width to your desired value */
-    height: auto; /* preserve aspect ratio */
-  }
-
-  .small-screen {
-    display: block;
-  }
-
-  .big-screen {
-    display: block;
-  }
-
-  .gap-8 {
-    gap: 4rem;
-  }
-
-  .home h2 {
-    font-size: 2.7rem;
-    line-height: 3rem;
-    margin-top: 7%;
-  }
-
-  .portfolio-btn {
-    margin: auto;
-    color: red;
-  }
-
-  .px-12 {
-    padding-left: 100rem;
-    padding-right: 1rem;
-  }
+.px-12 {
+  padding-left: 100rem;
+  padding-right: 1rem;
 }

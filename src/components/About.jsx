@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-100 bg-gradient-to-b from-gray-900 to-black text-white about"
+      className="w-full h-100 bg-gradient-to-b from-gray-900 to-black text-white about mx-4 my-900"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <br />
-        <p className="text-white text-2xl py-1 max-w-md">
+        <p className="text-white text-2xl  max-w-md">
           We are a small but dedicated company based in the heart of Key West,
           serving the entire Lower Keys area.
         </p>
@@ -30,7 +30,7 @@ const About = () => {
         </p>
         <br></br>
         <br></br>
-        <p className="text-white text-2xl py-1 max-w-md">
+        <p className="text-white text-2xl py-1 max-w-md mb-0">
           And the best part? We offer free estimates! So, whether you're a
           homeowner, business owner, or property manager, give us a call today
           to see how we can help you bring your vision to life.
