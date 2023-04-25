@@ -94,13 +94,13 @@ body {
     height: 100%;
   }
   .estimates {
-    margin-top: 10%;
+    margin-top: 0%;
   }
   .about,
   .portfolio,
   .estimates,
   .experience {
-    margin-top: 50%;
+    margin-top: 0%;
   }
 
   .home img {

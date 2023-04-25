@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Footer from "./components/Footer";
 import Estimates from "./components/Estimates";
+import Sitemap from "./components/Sitemap";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Contact />
       <Footer />
       <SocialLinks />
+      <Sitemap />
     </div>
   );
 }
