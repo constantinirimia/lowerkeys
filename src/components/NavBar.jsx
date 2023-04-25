@@ -32,7 +32,7 @@ const NavBar = () => {
           <a className="inline-flex items-center">
             <FaPhone className="mr-2 text-green-500" />
             <span
-              className="bg-yellow-500 text-black  text-lg px-2 py-1 rounded-md font-bold"
+              className="bg-yellow-500 text-black  text-xl px-2 py-1 rounded-md font-bold"
               style={{ fontFamily: "Helvetica" }}
             >
               CALL US: 305-509-0575
