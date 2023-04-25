@@ -22,17 +22,13 @@ const Home = () => {
             Lower Keys Painting and Maintanance
           </h2>
           <br></br>
-          <br></br>
-          <p className="text-white text-2xl py-1 max-w-md">
+          <p className="text-white text-2xl py-4 max-w-md">
             Welcome to Lower Keys Painting and Maintenance! Our commitment to
             excellence and attention to detail is what sets us apart from the
-            rest.
+            rest. We are a small but dedicated company based in the heart of Key
+            West, serving the entire Lower Keys area.
           </p>
-          <br></br>
-          <p className="text-white text-2xl py-1 max-w-md">
-            We are a small but dedicated company based in the heart of Key West,
-            serving the entire Lower Keys area.
-          </p>
+
           <div className="portfolio-btn">
             <Link
               to="about"
@@ -48,37 +44,32 @@ const Home = () => {
           </div>
 
           <br></br>
-
-          <br></br>
-          <p className="text-white text-2xl py-1 max-w-md">
+          <p className="text-white text-2xl py-4 max-w-md">
             And the best part? We offer free estimates! So, whether you're a
             homeowner, business owner, or property manager, give us a call today
             to see how we can help you bring your vision to life.
           </p>
 
-          <div className="portfolio-btn opacity-100">
+          <div className="portfolio-btn">
             <Link
               to="estimates"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r via-white-200 from-red-700 to-red-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r via-white-200 from-red-600 to-red-500 cursor-pointer"
             >
               GET A FREE ESTIMATE NOW
-              <span className="group-hover:rotate-90 duration-300 ">
-                <MdOutlineKeyboardArrowRight
-                  size={25}
-                  className="ml-1 items-left"
-                />
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
           </div>
-          <div className="big-screen float:right">
-            <img
-              src={HeroImage}
-              alt="profile"
-              className="rounded-2xl mx-auto w-2/3 md:w-full"
-            />
-          </div>
+        </div>
+        <div className="big-screen">
+          <img
+            src={HeroImage}
+            alt="profile"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
+          />
         </div>
       </div>
     </div>

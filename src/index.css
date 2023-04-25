@@ -70,7 +70,7 @@ body {
   text-underline-offset: 1rem;
 }
 .text-4xl {
-  margin-top: 40%;
+  margin-top: 0%;
 }
 
 @media screen and (max-width: 900px) {
@@ -93,12 +93,14 @@ body {
     text-align: center;
     height: 100%;
   }
-
+  .estimates {
+    margin-top: 10%;
+  }
   .about,
   .portfolio,
   .estimates,
   .experience {
-    margin-top: 10%;
+    margin-top: 0%;
   }
 
   .home img {
@@ -132,11 +134,11 @@ body {
   }
 
   .px-12 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .pb-8 {
-    margin-top: 10%;
+    margin-top: 0%;
   }
 }
