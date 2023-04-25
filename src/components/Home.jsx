@@ -22,7 +22,7 @@ const Home = () => {
             Lower Keys Painting and Maintanance
           </h2>
           <br></br>
-          <p className="text-white text-2xl py-4 max-w-md">
+          <p className="text-white text-xl py-4 max-w-md">
             Welcome to Lower Keys Painting and Maintenance! Our commitment to
             excellence and attention to detail is what sets us apart from the
             rest. We are a small but dedicated company based in the heart of Key
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
 
           <br></br>
-          <p className="text-white text-2xl py-4 max-w-md">
+          <p className="text-white text-xl py-4 max-w-md">
             And the best part? We offer free estimates! So, whether you're a
             homeowner, business owner, or property manager, give us a call today
             to see how we can help you bring your vision to life.
