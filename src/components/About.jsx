@@ -15,13 +15,17 @@ const About = () => {
 
         <p className="text-xl mt-5">
           We are a small but dedicated company based in the heart of Key West,
-          serving the entire Lower Keys area.
+          serving the entire Lower Keys area. We understand that making
+          decisions about home improvement projects can be challenging, which is
+          why we are here to help.
         </p>
 
         <br />
         <p className="text-xl">
-          We understand that making decisions about home improvement projects
-          can be challenging, which is why we are here to help.
+          At our company, Julian - the owner, leads a passionate and dedicated
+          team based in the heart of Key West, serving the entire Lower Keys
+          area. With years of experience, we understand that home improvement
+          projects can be challenging. That's why we're here to help.
         </p>
 
         <br />
@@ -33,9 +37,18 @@ const About = () => {
 
         <br />
         <p className="text-xl">
-          And the best part? We offer free estimates! So, whether you're a
-          homeowner, business owner, or property manager, give us a call today
-          to see how we can help you bring your vision to life.
+          We specialize in a range of services, including interior and exterior
+          painting, property maintenance, small remodeling projects, and more.
+          Our team of experts is always ready to offer sound advice and work
+          closely with you to ensure that your vision becomes a reality.
+        </p>
+
+        <br />
+        <p className="text-xl">
+          And the best part? We offer free estimates! Contact us today to
+          schedule a consultation with Julian and his team, and experience the
+          difference of working with a company that truly cares about your needs
+          and preferences.
         </p>
       </div>
     </div>
