@@ -16,19 +16,19 @@ const Estimates = () => {
         <p className="text-xl mt-5"></p>
 
         <br></br>
-        <p className="text-white text-2xl py-1 max-w-md">
+        <p className="text-white text-2xl mt-5">
           At Lower Keys Painting and Maintenance, we believe that quality
           service begins with a free estimate.
         </p>
         <br></br>
-        <p className="text-white text-2xl py-1 max-w-md">
+        <p className="text-white text-2xl mt-5">
           That's why we offer our clients a complimentary consultation to assess
           their needs and provide personalized solutions that fit their budget.
         </p>
         <br></br>
 
         <br></br>
-        <p className="text-white text-2xl py-1 max-w-md">
+        <p className="text-white text-2xl mt-5">
           All you need to do is give us a call at{" "}
           <span className="bg-gradient-to-r via-white-200 from-yellow-500 to-yellow-200 text-black px-2 py-1 rounded-md font-bold call-us">
             305-509-0575
@@ -40,7 +40,7 @@ const Estimates = () => {
         </p>
 
         <br></br>
-        <p className="text-white text-2xl py-1 max-w-md">
+        <p className="text-white text-2xl mt-5">
           Let us help you make your dream project a reality!
         </p>
       </div>

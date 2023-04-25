@@ -13,75 +13,26 @@
 }
 
 #root {
-  background: linear-gradient(
-    rgb(55, 52, 52) 25%,
-    rgb(31, 41, 54) 58%,
-    black 15%
-  );
+  background: linear-gradient(black 25%, rgb(31, 41, 54) 58%, black 15%);
   min-height: 100vh;
 }
 
 body {
-  background-image: url("/Users/constantine/Dev/FrontEnd/lowerkeys/lowerkeys/src/assets/heroImage.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  background-color: #f5f5f5;
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/extra_clean_paper.png");
-}
-
-@media (max-width: 767px) {
-  body {
-    background-size: contain;
-    background-position: center;
-  }
+  background: rgb(31, 41, 55);
 }
 
 .nav {
   z-index: 10;
-  font-size: 25px;
-  color: rgb(219, 18, 18);
 }
-.home {
-  margin-top: 0%;
-  margin-bottom: 0%;
-}
-.about {
-  margin-top: 0%;
-  width: 100%; /* adjust the width to your desired value */
-  margin: 0 auto; /* center the container */
-}
-.estimates {
-  margin-top: 0%;
-  width: 100%; /* adjust the width to your desired value */
-  margin: 0 auto; /* center the container */
-  margin-bottom: 0%;
-}
-
-.contact {
-  margin-top: 0%;
-  margin-bottom: 10%;
-  margin-left: 0%;
-}
-.nav-links {
-  text-underline-offset: 9rem;
-}
-h-screen {
-  width: 90%;
-}
-
-.call-us {
-  font-family: Helvetica;
-}
-py-6 {
-  font-size: 2.7rem;
-  line-height: 3rem;
+.heroImage {
+  position: relative;
+  left: 50px;
 }
 
 .link-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(to right, #000, #000),
-    linear-gradient(to right, #000, #000);
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
   background-size: 0 3px;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -96,62 +47,96 @@ py-6 {
 
 .link-underline:hover {
   background-size: 100% 3px;
-  background-position: 200% 100%;
+  background-position: 0 100%;
   line-height: 1.2;
 }
 
-.blue-text {
-  color: rgb(217, 255, 0);
+.portfolio,
+.estimates,
+.contact {
+  margin-top: 0%;
 }
 
-.home img {
-  margin-top: 5%;
-  width: 100%; /* adjust the width to your desired value */
-  height: auto; /* preserve aspect ratio */
+.big-screen img {
+  position: center;
+  right: 100px;
 }
 
-.img {
-  margin-top: 75%;
-  width: 90%; /* adjust the width to your desired value */
-  height: auto; /* preserve aspect ratio */
+.experience {
+  margin-top: 12%;
 }
 
-.small-screen {
-  display: block;
+.nav-links {
+  text-underline-offset: 1rem;
+}
+.text-4xl {
+  margin-top: 40%;
 }
 
-.big-screen {
-  display: block;
-}
+@media screen and (max-width: 900px) {
+  #root {
+    background: linear-gradient(
+      rgb(31, 41, 55) 20%,
+      black 20%,
+      rgb(31, 41, 55) 65%,
+      black 25%
+    );
+    min-height: 100vh;
+  }
 
-.gap-8 {
-  gap: 4rem;
-}
+  .about,
+  .contact,
+  .portfolio,
+  .experience,
+  .estimates,
+  .home {
+    text-align: center;
+    height: 100%;
+  }
 
-.home h2 {
-  font-size: 2.7rem;
-  line-height: 3rem;
-  margin-top: 60%;
-}
+  .about,
+  .portfolio,
+  .estimates,
+  .experience {
+    margin-top: 10%;
+  }
 
-.pb-8 {
-  font-size: 2.7rem;
-  line-height: 3rem;
-  margin-top: 25%;
-}
-.pb-77 {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  margin-top: 3%;
-}
+  .home img {
+    margin-top: 25%;
+  }
 
-.portfolio-btn {
-  margin: auto;
-  margin-left: 0%;
-  color: red;
-}
+  .small-screen {
+    display: block;
+  }
+  .small-screen img {
+    position: relative;
+    left: 500px;
+  }
 
-.px-12 {
-  padding-left: 100rem;
-  padding-right: 1rem;
+  .big-screen {
+    display: none;
+  }
+
+  .gap-8 {
+    gap: 4rem;
+  }
+
+  .home h2 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    margin-top: 7%;
+  }
+
+  .portfolio-btn {
+    margin: auto;
+  }
+
+  .px-12 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .pb-8 {
+    margin-top: 10%;
+  }
 }

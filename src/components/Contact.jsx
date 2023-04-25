@@ -36,7 +36,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             name="contact"
             method="POST"
-            action="https://getform.io/f/ece11996-662a-4239-ae0f-0fc7460456c9"
+            action="https://getform.io/f/4019fed2-723c-4844-be2c-bbce93e5f785"
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
@@ -65,7 +65,7 @@ const Contact = () => {
               type="submit"
               className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
             >
-              Send Message
+              Send Message Now
             </button>
           </form>
         </div>
